@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ParliamentAPI": {
+    "ParliamentApp": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

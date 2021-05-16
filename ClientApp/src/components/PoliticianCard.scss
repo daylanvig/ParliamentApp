@@ -1,0 +1,49 @@
+@import '../styles/_CommonImports';
+
+.PoliticianCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  @include from($tablet) {
+    width: 175px;
+  }
+
+  @include from($desktop) {
+    width: 200px;
+  }
+
+
+  @include from($widescreen) {
+    width: 275px;
+  }
+
+
+  &>* {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  &>.control {
+    max-width: 100%;
+  }
+
+
+  &Footer {
+    display: grid;
+    grid-template-columns: max-content auto;
+    width: 100%;
+  }
+
+  &SocialLinks {
+    display: flex;
+    width: 100%;
+
+    &>* {
+      flex: 1;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-﻿namespace ParliamentAPI.Models.Common
+﻿namespace ParliamentApp.Models.Common
 {
     public interface IPagedList
     {
